@@ -1,0 +1,132 @@
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;   
+  color: #1c1c1c;              
+  line-height: 1.5;
+}
+
+
+.header {
+  background-color: #0a5c36;   
+  color: #ffffff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 22px;
+}
+
+.header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #0a5c36;
+}
+
+.hero p {
+  font-size: 17px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  color: #444;
+}
+
+
+.btn {
+  display: inline-block;
+  background-color: #0a5c36;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #084a2b;
+}
+
+
+.dashboard {
+  padding: 40px 30px;
+}
+
+.dashboard h2 {
+  margin-bottom: 25px;
+  color: #0a5c36;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dde3e0;
+  border-radius: 8px;
+  padding: 25px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #1c1c1c;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card .icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #666;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #888;
+}
