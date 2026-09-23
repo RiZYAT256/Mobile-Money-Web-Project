@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile Money System</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <h1>Mobile Money System</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="home.html">Dashboard</a>
+    </nav>
+  </header>
+
+  
+  <section class="hero">
+    <h2>Send, Receive and Manage Money — Simply</h2>
+    <p>
+      A simple platform to handle deposits, withdrawals, transfers,
+      and agent transactions in one place.
+    </p>
+
+    
+    <a href="home.html" class="btn">Go to Dashboard</a>
+  </section>
+
+  
+  <footer class="footer">
+    &copy; 2026 Mobile Money System. All rights reserved.
+  </footer>
+
+</body>
+</html>
